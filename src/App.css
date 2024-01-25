@@ -28,6 +28,72 @@
   color: #61dafb;
 }
 
+/* .topbar-area{
+  background: #304f47;
+} */
+
+
+.desktop-nav .dropdown {
+  /* display: none; */
+ }
+.topbar-area {
+  padding: 0;
+  background: #304f47
+}
+
+.topbar-area .topbar-contact {
+  height: 100%
+}
+
+.topbar-area .topbar-contact ul {
+  display: flex;
+  height: 100%;
+  align-items: center
+}
+
+.topbar-area .topbar-contact ul li {
+  font-family: Work Sans,sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #fff;
+  margin-right: 40px;
+  display: flex;
+  align-items: center
+}
+
+.topbar-area .topbar-contact ul li a {
+  color: #fff
+}
+
+.topbar-area .topbar-contact ul li i {
+  font-size: 16px;
+  margin-right: 10px
+}
+
+.topbar-area .topbar-social {
+  text-align: center;
+  height: 100%;
+  align-items: center
+}
+
+.topbar-area .topbar-social,.topbar-area .topbar-social ul {
+  display: flex;
+  justify-content: center
+}
+
+.topbar-area .topbar-social ul li a {
+  color: #ff7f47;
+  margin: 0 12px;
+  font-size: 14px;
+  transition: .3s
+}
+
+.topbar-area .topbar-social ul li a:hover {
+  color: #fff
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
