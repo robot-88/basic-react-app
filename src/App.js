@@ -6,6 +6,7 @@ import Message from './components/Message/Message';
 import { Component } from 'react';
 import Counter from './components/Counter/Counter';
 import Functionclick from './components/Functionclick';
+import Classclick from './components/Classclick';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
     {/* <Message /> */}
     {/* <Counter /> */}
     <Functionclick />
+    <Classclick />
     </>
    
    
